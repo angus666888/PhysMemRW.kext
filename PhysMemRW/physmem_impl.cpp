@@ -4,6 +4,10 @@
  * Portions of this code may be used or modified, provided
  * that the original copyright notice is retained.
  */
+// 确保在旧版系统编译环境下也能识别新版常量名
+#ifndef kIOMainPortDefault
+#define kIOMainPortDefault kIOMasterPortDefault
+#endif
 #include <IOKit/IOService.h>
 #include <IOKit/IOLib.h>
 #include <IOKit/IOMemoryDescriptor.h>
