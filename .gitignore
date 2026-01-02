@@ -1,0 +1,9 @@
+DerivedData/
+build/
+Debug/
+Release/
+.DS_Store
+*.kext/
+*.app/
+*.o
+*.d
