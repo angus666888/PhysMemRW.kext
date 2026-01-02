@@ -4,6 +4,9 @@
  * Portions of this code may be used or modified, provided
  * that the original copyright notice is retained.
  */
+#ifndef kIOMainPortDefault
+#define kIOMainPortDefault kIOMasterPortDefault
+#endif
 #include <iostream>
 #include <CoreFoundation/CoreFoundation.h>
 #include <IOKit/IOKitLib.h>
